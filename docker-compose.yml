@@ -1,0 +1,8 @@
+name: debian
+
+services:
+  terminal:
+    hostname: ubuntu
+    container_name: terminal
+    build: .
+    entrypoint: tail -F .
